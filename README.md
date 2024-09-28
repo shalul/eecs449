@@ -25,5 +25,6 @@ I've made a ChatType that greets users when they prompt something. The chatbot i
 The chatbot will take the user input. The items in the enum for ChatType are flagged based on the context of the prompt given, so for GreetingsChat, it will be flagged for "handling greeting/welcome messages". The chatbot will identify this and then reroute to the GreetingChat model.
 
 Output:
-<img width="630" alt="Screenshot 2024-09-28 at 1 09 25 PM" src="https://github.com/user-attachments/assets/918e32c9-b183-4e38-8739-d938dc339eea">
+<img width="670" alt="Screenshot 2024-09-28 at 5 25 49 PM" src="https://github.com/user-attachments/assets/0115233a-5b1f-47f2-bf06-0fbdc23aaeb8">
+
 
