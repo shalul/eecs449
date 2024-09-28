@@ -11,11 +11,15 @@ Walker responses:
 
 Part 2:
 
+The custom document was the health one. I've uploaded the 2 queries with the document analysis (doing both steps in 1!)
+
 using gemma2:
+
 <img width="605" alt="Screenshot 2024-09-28 at 5 20 29 PM" src="https://github.com/user-attachments/assets/34c3c95d-3907-47e0-83de-ce33b1b0a02c">
 
 
 using llama3.1:
+
 <img width="630" alt="Screenshot 2024-09-28 at 1 09 25 PM" src="https://github.com/user-attachments/assets/8eb23648-5285-4777-ad32-6307704239b5">
 
 Part 3:
