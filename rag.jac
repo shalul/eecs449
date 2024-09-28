@@ -85,5 +85,4 @@ obj RagEngine {
         results = db.similarity_search_with_score(query,k=chunck_nos);
         return results;
     }
-
 }

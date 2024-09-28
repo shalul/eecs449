@@ -8,14 +8,12 @@ can bootstrap_frontend (token: str) {
     if "messages" not in st.session_state {
         st.session_state.messages = [];
     }
-
-    for message in st.session_state.messages {
+        for message in st.session_state.messages {
         with st.chat_message(message["role"]) {
             st.markdown(message["content"]);
         }
     }
-
-    if prompt := st.chat_input("What is up?") {
+        if prompt := st.chat_input("What is up?") {
         # Add user message to chat history
         st.session_state.messages.append({"role": "user", "content": prompt});
 
@@ -42,13 +40,11 @@ can bootstrap_frontend (token: str) {
             }
         }
     }
-
 }
-
 with entry {
 
     INSTANCE_URL = "http://localhost:8000";
-    TEST_USER_EMAIL = "test@mail.com";
+    TEST_USER_EMAIL = "test1@mail.com";
     TEST_USER_PASSWORD = "password";
 
     response = requests.post(
